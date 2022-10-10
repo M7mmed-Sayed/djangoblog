@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %} {% load static %} {% block content%}
+
+{% for post in posts %}
+ <div>
+     <h1>{{post.author}}</h1>
+     <h2>{{post.title}}</h2>
+     <h3>{{post.content}}</h3>
+     <h4>{{post.date_posted}}</h4>
+     <hr>
+ </div>
+{% endfor %}
+{% endblock %}
