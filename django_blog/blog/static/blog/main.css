@@ -1,16 +1,49 @@
-
-
-h1, h2, h3, h4, h5, h6 {
-  color: #444444;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #444444;
 }
 .bg-steel {
-  background-color: #000000;
+    background-color: #344b34;
+    margin-bottom: 70px;
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #bbbbbb;
+    color: #bbbbbb;
 }
 
 .site-header .navbar-nav .nav-link:hover {
-  color: #ffffff;
+    color: #ffffff;
+}
+.up {
+    color: cadetblue;
+}
+.name > h3 {
+    color: rgb(6, 115, 249);
+}
+.date{
+  margin: 10px 0px 0px 30px;
+}
+.post {
+    padding-top: 7px;
+    margin: 15px;
+    background-color: #edecec;
+    border: solid rgb(124, 123, 123) 1px;
+}
+.main-body{
+  margin-top: 70px;
+  
+}
+hr {
+  margin: 0px;
+}
+body{
+  background-color: #ffffff;
+}
+.register-body{
+     padding: 20px;
+      border: solid rgb(124, 123, 123) .01rem;
 }

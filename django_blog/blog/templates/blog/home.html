@@ -1,12 +1,16 @@
-{% extends 'blog/base.html' %} {% load static %} {% block content%}
 
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content%}
 {% for post in posts %}
- <div>
-     <h1>{{post.author}}</h1>
-     <h2>{{post.title}}</h2>
-     <h3>{{post.content}}</h3>
-     <h4>{{post.date_posted}}</h4>
-     <hr>
- </div>
-{% endfor %}
+<div class="post container">
+    <div class="d-flex row up container">
+        <div class="name"><h3>{{post.author.first_name }} {{post.author.last_name }} </h3></div>
+        <div class="date"><span>{{post.date_posted}}</span></div>
+    </div>
+    <hr >
+    <h1>{{post.title}}</h1>
+    <p>{{post.content}}</p>
+</div>
+{% endfor %} 
 {% endblock %}
