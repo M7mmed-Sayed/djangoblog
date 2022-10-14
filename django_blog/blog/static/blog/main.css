@@ -22,7 +22,7 @@ h6 {
     color: cadetblue;
 }
 .name > h3 {
-    color: rgb(6, 115, 249);
+    color: blue;
 }
 .date{
   margin: 10px 0px 0px 30px;
@@ -35,7 +35,7 @@ h6 {
 }
 .main-body{
   margin-top: 70px;
-  
+
 }
 hr {
   margin: 0px;
@@ -47,3 +47,4 @@ body{
      padding: 20px;
       border: solid rgb(124, 123, 123) .01rem;
 }
+
